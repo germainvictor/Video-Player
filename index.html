@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>player</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="player">
+				<div class="content">
+					<video class="video" src="hight.mp4" loop poster="poster.png">
+						 Your browser doesn't support video API :(
+					</video>
+					<div class="panel">
+						<div class="panel-left">
+							<div class="button-play-pause">
+								<div class="play"></div>
+								<div class="pause invisible">
+									<div class="pause-left"></div>
+									<div class="pause-right"></div>
+								</div>
+							</div>
+						</div>
+						<div class="panel-right">
+						<div class="timer-box">
+							<div class="timer">00:00</div>
+							<div class="timer_arrow"></div>
+						</div>
+							<div class="progress-bar">
+								<div class="progress"></div>
+								<div class="progress-loaded"></div>
+								<div class="progress-views"></div>
+							</div>
+							<div class="sound">
+								<div class="sound-progress"></div>
+							</div>
+							<div class="quality">
+								<span class="HD-quality">HD</span>
+								<div class="box-quality">
+										<span class="text-quality low">360p</span>
+										<span class="text-quality hight">720p</span>
+								</div>							
+							</div>
+							<div class="full-screen">
+								<div class="full-screen-button"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<script src="script.js"></script>
+	</body>
+</html>
